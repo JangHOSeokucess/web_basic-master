@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .font-bold{
+            font-weight: bold;
+        }
+        .font-style{
+            font-style: italic;
+        }
+        .font-size{
+            font-size: 2em;
+        }
+        .font-center{
+            text-align: center;
+        }
+        .button > a {
+                display: block;
+                line-height: 70px;
+                color: purple;
+            }
+        .button{
+            width: 200px;
+            height: 70px;
+            background-color: rgb(223, 239, 104);
+            border: 10px solid rgb(102, 99, 99);
+            border-radius:  30px;
+            box-shadow: 5px 5px 5px rgba(194, 187, 187, 0.872) ;  
+            float: left;
+            
+        }
+        a:hover {color: greenyellow;}
+        body{
+            background-image: url(ppppp.jpg);
+            background-size: 100% 1200px}   
+
+        .text{
+            text-align: right;
+            color: white;
+
+        }
+    
+
+        .box{color: aliceblue;
+            text-align: center;
+            text-shadow: 20px 15px 0px rgb(126, 70, 70,0.42);
+            background: #8aa01c;
+            background: linear-gradient(272deg,#3bec64 0%, #5595d5 80%);
+            background: -webkit-linear-gradient(272deg,#6eef99 0%, #5595d5 80%);
+            background: -moz-linear-gradient(272deg,#6be293 0%, #5595d5 80%);       
+        }
+        .login{
+        float: right;
+        border: 1px solid black;
+        background-color: rgb(245, 130, 29);        
+        }
+        .help{
+            text-align: right;     
+            float: right;  
+        }
+        .S{
+        text-align: center;    
+        color: yellow
+        }
+        .Y{
+            color: black;
+            border: 1px solid white;
+            width: 1400px;
+            height: 730px;
+            box-shadow: 5px 5px 5px white;
+            
+        }
+        section{
+            text-align: center;
+            margin-left: 200px;
+            margin-right: 100px;
+        }
+        .R{
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            font-size: 2em;
+            color: azure;
+        }
+        </style>
+    </head>
+    <body> 
+    <header>0
+0    <div>
+    <legend>
+        <h1 class="box">코딩 클럽!</h1>
+    </legend>
+    </div>
+    </header>
+    <nav class="S">
+        <div>
+        <h2>코딩은 언제나 한걸음 씩</h2>
+        </div>
+    </nav> 
+    
+    <div class="text">
+        
+        CodingJang<input type="text">
+        <input type="button" name="검색" id="검색" value="검색">
+    </div>
+    <br><br>
+    
+    <div>
+        <form action="" method="post">
+            <table class="login">
+            <tr>
+                <td><label for="username">이름</label></td>
+                <td><input type="text" id="username" value=""></td>
+            </tr>
+            <tr>
+                <td><label for="password">비밀번호</label></td>
+                <td><input type="text" id="password" value=""></td>
+                <td><input type="submit" value="로그인"></td>
+            </tr>
+            </table>
+        </form>
+    </div>
+        <aside>
+            <div class="button" width: 200px; height: 70px >
+                <a href="java.html"  class="font_bold font-size font-center font-style">JAVA</a>
+                <a href="파이썬.html" class="font_bold font-size font-center font-style">Python</a>
+                <a href="C언어.html"  class="font_bold font-size font-center font-style">C언어</a>
+                <a href="https://khj93.tistory.com/entry/Spring-Spring-Framework%EB%9E%80-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%ED%95%B5%EC%8B%AC-%EC%A0%95%EB%A6%AC" class="font_bold font-size font-center font-style">자바 스프링 설명</a>
+                <a href="http://www.tcpschool.com/javascript/js_intro_basic" class="font_bold font-size font-center font-style">javascript</a>
+                <a href="https://velog.io/@gosgjung/%EC%BD%94%ED%8B%80%EB%A6%B0%EC%96%B8%EC%96%B4-%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EC%8A%A4%EC%95%95%EC%A3%BC%EC%9D%98" class="font_bold font-size font-center font-style"> 코틀린 언어 요약</a>
+                <a href="https://sleep365.tistory.com/101" class="font_bold font-size font-center font-style"> C ++</a>
+                <a href="https://learn.microsoft.com/ko-kr/dotnet/visual-basic/language-reference/data-types/" class="font_bold font-size font-center font-style">visual-basic</a>
+                <a href="https://heewinkim.netlify.app/posts/study/c%20sharp/01" class="font_bold font-size font-center font-style">C#</a> 
+            </div>
+        </aside>
+        
+        <br> <br> <br> <br> <br><br><br>
+        <section class="Y">
+            <h1>인공지능의 전망</h1>
+            <br>
+            <h4>3.저비용화:AI 학습비용 감소</h4>
+                <p>세 번째는 비용이다. 딥러닝과 같은 고도의 AI 모델은 우수한 성능을 제공하지만 비용이 크다는 것이 단점이었다. 딥러닝 훈련을 위해서는 고사양의 하드웨어가 준비되어야 하고 방대한 데이터 학습을 하는 데 시간도 오래 걸린다. 데이터를 준비하여 모델링을 진행하기 위하여 투입되는 인력도 만만치 않다. 하지만 최근 GPU, TPU 등 하드웨어 기술이 발전하고 있고, 보다 효율적인 데이터 처리 방식이 등장함에 따라 학습비용은 연 1/10로 감소하고 있다.</p>
+            <h4>4.이종결합:타 분야 기술간 결합</h4>
+                <p>네 번째는 기술간 결합이 더욱 확산될 것이라는 점이다. AI는 다양한 기술과 호환되어 부가가치를 창출할 수 있다. 가령, 최근 산업계의 중요한 화두로 자리잡고 있는 메타버스(Metaverse)와 AI가 결합될 수 있다. 메타버스는 가상, 초월을 뜻하는 메타(Meta)와 현실세계를 의미하는 유니버스(Universe)의 합성어로 가상과 현실이 상호작용하는 혼합현실을 말한다. AI는 메타버스 내의 아바타를 사용자의 실제 모습과 유사하게 생성할 수도 있고, 자연어처리 기반의 소통모델이 적용되어 사용자와 대화를 나눌 수 있도록 설계할 수도 있다. 또한 가상현실 속에서 사용자를 인지하여 맞춤화된 광고를 보여줄 수도 있다. AI는 이렇게 메타버스 세계를 지능화하는 데 중요한 역할을 할 것이다. 또한 블록체인과 결합하여 지능형 보안체계를 확립하거나, 가사상화폐의 변동성을 예측하여 자산 안정성을 제고할 수도 있다. 4차 산업혁명 시기는 고도화된 신기술이 동시다발적으로 등장하는 시기이다. 이러한 상황에서 AI는 다른 기술들과의 결합을 통해 파괴적 혁신을 촉진시키는 역할을 할 것으로 전망된다.</p>      
+            </section> 
+            <br><br><br><br>
+            <footer class="R">
+                <a href="basic1.html" style="color: white;">1</a>
+                <a href="mid1.html" style="color: white;">2</a>
+                <a href="finish1,.html" style="color: white;">3</a>
+            </footer>
+            
+
+   
+    
+  
+</body>
+</html>
